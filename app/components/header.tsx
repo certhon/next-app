@@ -1,6 +1,11 @@
 import Image from 'next/image';
 
-const Header = ({ activeTab, setActiveTab }) => {
+type HeaderProps = {
+  activeTab: string;
+  setActiveTab: (tabId: string) => void;
+};
+
+const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
   const tabs = [
     { id: 'home', name: '首页' },
     { id: 'business', name: '业务介绍' },
