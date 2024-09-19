@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 type HeaderProps = {
   activeTab: string;
   setActiveTab: (tabId: string) => void;
@@ -17,7 +15,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Image src="/logo.png" alt="公司logo" width={150} height={50} />
+          <img src="/logo.png" alt="公司logo" width={150} height={50} />
         </div>
         <nav>
           <ul className="flex space-x-6">
