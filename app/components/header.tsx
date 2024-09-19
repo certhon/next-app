@@ -8,7 +8,7 @@ const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
     { id: 'home', name: '首页' },
     { id: 'business', name: '业务介绍' },
     { id: 'about', name: '关于我们' },
-    { id: 'contact', name: '联系我们' },
+    // { id: 'contact', name: '联系我们' },
   ];
 
   return (

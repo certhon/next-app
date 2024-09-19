@@ -18,8 +18,8 @@ const Home = () => {
         return <BusinessIntro />;
       case 'about':
         return <AboutUs />;
-      case 'contact':
-        return <ContactUs />;
+      // case 'contact':
+      //   return <ContactUs />;
       default:
         return <HomePage />;
     }

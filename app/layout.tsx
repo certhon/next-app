@@ -2,6 +2,9 @@ import './globals.css';
 export const metadata = {
   title: '礼乘官网',
   description: '礼乘公司官方网站',
+  icons: {
+    icon: '/logo.ico',
+  },
 }
 
 export default function RootLayout({

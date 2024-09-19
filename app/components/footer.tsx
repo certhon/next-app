@@ -5,17 +5,17 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-4">公司信息</h3>
-              <p>礼乘科技有限公司</p>
-              <p>版权所有 © 2023 礼乘科技</p>
+              <p>版权所有 © 2024 上海礼乘财务咨询服务有限责任公司</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">联系方式</h3>
-              <p>电话：123-456-7890</p>
-              <p>邮箱：info@licheng.com</p>
+              <p>电话：150-2166-6782</p>
+              <p>邮箱：business@lcfin.cn</p>
+              <p>微信：lichengcaishui666</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">地址</h3>
-              <p>中国上海市浦东新区张江高科技园区</p>
+              <p>上海市浦东新区浦东大道535号</p>
             </div>
           </div>
         </div>
