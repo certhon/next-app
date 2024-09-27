@@ -7,6 +7,10 @@ export const metadata = {
   icons: {
     icon: '/logo.ico',
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
