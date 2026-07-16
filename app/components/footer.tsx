@@ -9,7 +9,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">{siteConfig.siteName}</h3>
+            <img
+              src="/logo-white.svg"
+              alt={siteConfig.siteName}
+              width={116}
+              height={36}
+              className="h-9 w-auto mb-4"
+            />
             <p className="text-sm leading-relaxed mb-3">{siteConfig.slogan}</p>
             <p className="text-sm leading-relaxed">
               持有{siteConfig.credentials.licenseName}的一站式财税服务机构，资深财务团队直接对接，无销售中间环节。

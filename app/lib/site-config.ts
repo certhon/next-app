@@ -1,7 +1,7 @@
 // 站点全局配置：联系方式、域名、统计等集中在此维护
 export const siteConfig = {
   siteName: '礼乘财税',
-  companyName: '上海礼乘财务咨询服务有限责任公司',
+  companyName: '上海礼乘信息技术有限公司',
   siteUrl: 'https://www.licheng.tech',
   slogan: '礼乘有你，礼成为安',
 

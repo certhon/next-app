@@ -25,7 +25,7 @@ const Header = () => {
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur shadow-sm">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between gap-4">
         <Link href="/" className="flex items-center shrink-0" aria-label="礼乘财税首页">
-          <img src="/logo.png" alt="礼乘财税" width={120} height={40} className="h-9 w-auto" />
+          <img src="/logo.svg" alt="礼乘财税" width={116} height={36} className="h-9 w-auto" />
         </Link>
 
         {/* 桌面导航 */}

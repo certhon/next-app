@@ -3,7 +3,7 @@ import LeadForm from '../components/lead-form';
 import { siteConfig } from '../lib/site-config';
 
 export const metadata: Metadata = {
-  title: '关于我们_资质公示_上海礼乘财务咨询服务有限责任公司',
+  title: '关于我们_资质公示_上海礼乘信息技术有限公司',
   description:
     '礼乘财税是持代理记账许可证的上海财税服务机构，核心成员人均 10 年以上财务经验、中级以上职称，上海/北京/深圳/成都园区合作商，资质信息可在监管平台核验。',
   alternates: { canonical: '/about' },
