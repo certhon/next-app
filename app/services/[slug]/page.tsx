@@ -88,6 +88,22 @@ const ServiceDetailPage = ({ params }: { params: { slug: string } }) => {
           </div>
         </section>
 
+        {/* 纳税筹划专属：税负测算器入口 */}
+        {service.slug === 'nashui-chouhua' && (
+          <section className="rounded-2xl bg-orange-50 border border-orange-200 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="flex-grow">
+              <h2 className="text-lg font-bold text-slate-900 mb-1">先自己算算：小规模和一般纳税人差多少？</h2>
+              <p className="text-sm text-slate-600">免费税负测算器：输入营收和进项比例，马上看到两种身份一年差多少税。</p>
+            </div>
+            <Link
+              href="/tools/shuifu"
+              className="shrink-0 inline-flex items-center justify-center rounded-xl bg-orange-600 px-6 py-3 text-white text-sm font-semibold hover:bg-orange-700 transition-colors"
+            >
+              免费测算 →
+            </Link>
+          </section>
+        )}
+
         {/* 工商注册专属：核名工具入口 */}
         {service.slug === 'gongshang-zhuce' && (
           <section className="rounded-2xl bg-orange-50 border border-orange-200 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
