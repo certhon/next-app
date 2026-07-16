@@ -17,6 +17,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title: `${article.title}_礼乘财税`,
     description: article.seoDescription,
     alternates: { canonical: `/news/${article.slug}` },
+    openGraph: {
+      type: 'article',
+      title: article.title,
+      description: article.seoDescription,
+      url: `/news/${article.slug}`,
+      publishedTime: article.date,
+    },
   };
 }
 

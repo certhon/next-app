@@ -9,9 +9,24 @@ export const metadata: Metadata = {
   alternates: { canonical: '/faq' },
 };
 
+// FAQPage 结构化数据：搜索结果可展开问答富摘要
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
 const FaqPage = () => {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <section className="bg-gradient-to-br from-blue-50 via-white to-slate-50">
         <div className="container mx-auto px-4 py-12 md:py-16 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">常见问题</h1>

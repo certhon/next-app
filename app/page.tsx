@@ -11,6 +11,29 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
+// LocalBusiness 结构化数据：Google 富摘要与本地结果用
+const localBusinessJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'AccountingService',
+  name: '礼乘财税',
+  legalName: siteConfig.companyName,
+  url: siteConfig.siteUrl,
+  logo: `${siteConfig.siteUrl}/logo-mark.svg`,
+  image: `${siteConfig.siteUrl}/og-image.webp`,
+  telephone: '+86-150-2166-6782',
+  email: siteConfig.email,
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'CN',
+    addressRegion: '上海市',
+    addressLocality: '浦东新区',
+    streetAddress: '浦东大道535号',
+  },
+  openingHours: 'Mo-Fr 09:00-18:00',
+  priceRange: '$$',
+  areaServed: '上海市',
+};
+
 // 核心服务排前，其余保持原顺序
 const orderedServices = [
   ...coreServiceSlugs.map((slug) => services.find((s) => s.slug === slug)!),
@@ -46,6 +69,10 @@ const HomePage = () => {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
       {/* Hero：价值主张 + 双 CTA + 信任数字带 */}
       <section className="bg-gradient-to-br from-blue-50 via-white to-slate-50">
         <div className="container mx-auto px-4 pt-14 pb-10 md:pt-20 md:pb-14">
@@ -63,17 +90,20 @@ const HomePage = () => {
                 公司注册 · 代理记账 · 税务疑难处理——没有销售转手，
                 从咨询起对接的就是做账会计本人。{siteConfig.slogan}。
               </p>
-              <p className="inline-flex items-center gap-2 rounded-lg bg-orange-50 border border-orange-200 text-orange-700 font-semibold px-4 py-2 mb-8">
-                🎉 注册公司免费，最快 1 天拿证
-              </p>
+              <Link
+                href="/tools/heming"
+                className="inline-flex items-center gap-2 rounded-lg bg-orange-50 border border-orange-200 text-orange-700 font-semibold px-4 py-2 mb-8 hover:bg-orange-100 transition-colors"
+              >
+                🎉 注册公司免费，最快 1 天拿证——先免费查名字能不能用 →
+              </Link>
               <CtaButtons source="hero" />
             </div>
             <div className="md:w-2/5 hidden md:block">
               <img
-                src="/11.jpg"
+                src="/hero.webp"
                 alt="礼乘财税专业服务团队"
-                width={563}
-                height={375}
+                width={564}
+                height={564}
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>

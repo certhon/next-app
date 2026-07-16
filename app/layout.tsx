@@ -22,6 +22,22 @@ export const metadata: Metadata = {
     icon: '/logo.ico',
     apple: '/apple-touch-icon.png',
   },
+  openGraph: {
+    type: 'website',
+    locale: 'zh_CN',
+    siteName: '礼乘财税',
+    url: '/',
+    title: '礼乘财税｜上海中小企业一站式财税服务',
+    description:
+      '公司注册免费代办，最快 1 天拿证；代理记账、税务疑难处理，资深财务团队直接对接，无销售中间环节。',
+    images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: '礼乘财税' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '礼乘财税｜上海中小企业一站式财税服务',
+    description: '公司注册免费代办，最快 1 天拿证；代理记账、税务疑难处理，资深财务直接对接。',
+    images: ['/og-image.webp'],
+  },
   robots: {
     index: true,
     follow: true,

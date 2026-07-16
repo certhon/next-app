@@ -19,6 +19,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title: service.seoTitle,
     description: service.seoDescription,
     alternates: { canonical: `/services/${service.slug}` },
+    openGraph: {
+      title: service.seoTitle,
+      description: service.seoDescription,
+      url: `/services/${service.slug}`,
+    },
   };
 }
 
@@ -82,6 +87,22 @@ const ServiceDetailPage = ({ params }: { params: { slug: string } }) => {
             ))}
           </div>
         </section>
+
+        {/* 工商注册专属：核名工具入口 */}
+        {service.slug === 'gongshang-zhuce' && (
+          <section className="rounded-2xl bg-orange-50 border border-orange-200 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="flex-grow">
+              <h2 className="text-lg font-bold text-slate-900 mb-1">还没想好名字能不能用？</h2>
+              <p className="text-sm text-slate-600">先用免费核名：顾问人工核验重名与禁限用词，30 分钟内回电反馈。</p>
+            </div>
+            <Link
+              href="/tools/heming"
+              className="shrink-0 inline-flex items-center justify-center rounded-xl bg-orange-600 px-6 py-3 text-white text-sm font-semibold hover:bg-orange-700 transition-colors"
+            >
+              免费核名 →
+            </Link>
+          </section>
+        )}
 
         {/* 办理流程 */}
         <section>
