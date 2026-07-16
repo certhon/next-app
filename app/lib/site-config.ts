@@ -21,10 +21,10 @@ export const siteConfig = {
   // 百度搜索资源平台站点验证码（ziyuan.baidu.com 获取）；留空则不输出验证 meta
   baiduSiteVerification: '',
 
-  // 资质信息：编号请核对后替换
+  // 资质信息：证书编号不在页面直接展示，引导加微信核验
   credentials: {
     licenseName: '代理记账许可证',
-    licenseNo: '（许可证编号待补充）',
+    licenseNote: '证书编号及原件，添加微信即可核验查看',
     licenseIssuer: '上海市浦东新区财政局核发',
     regulatorName: '全国代理记账行业管理系统',
     regulatorUrl: 'https://dljz.mof.gov.cn',

@@ -64,8 +64,10 @@ const AboutPage = () => {
             <div className="rounded-xl bg-white border border-slate-100 shadow-sm p-6">
               <p className="text-xs text-slate-400 mb-2">许可资质</p>
               <h3 className="text-lg font-semibold text-slate-900 mb-1">{c.licenseName}</h3>
-              <p className="text-sm text-slate-600 mb-1">{c.licenseNo}</p>
-              <p className="text-sm text-slate-500 mb-4">{c.licenseIssuer}</p>
+              <p className="text-sm text-slate-600 mb-1">{c.licenseIssuer}</p>
+              <p className="text-sm text-slate-500 mb-4">
+                {c.licenseNote}（微信号：{siteConfig.wechatId}）
+              </p>
               <a
                 href={c.regulatorUrl}
                 target="_blank"
