@@ -19,7 +19,7 @@ export const siteConfig = {
   // 百度统计站点 ID（hm.baidu.com 后台获取，形如 32 位字符串）；留空则不注入统计脚本
   baiduAnalyticsId: '8a0fec12d0090afc236062a8868131f5',
   // 百度搜索资源平台站点验证码（ziyuan.baidu.com 获取）；留空则不输出验证 meta
-  baiduSiteVerification: '',
+  baiduSiteVerification: 'codeva-82xxvlLeaO',
 
   // 资质信息：证书编号不在页面直接展示，引导加微信核验
   credentials: {
