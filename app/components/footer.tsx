@@ -39,6 +39,7 @@ const Footer = () => {
             <h3 className="text-white text-lg font-semibold mb-4">快捷导航</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/services" className="hover:text-white transition-colors">服务总览</Link></li>
+              <li><Link href="/districts" className="hover:text-white transition-colors">上海各区注册指南</Link></li>
               <li><Link href="/tools/heming" className="hover:text-white transition-colors">免费核名查询</Link></li>
               <li><Link href="/tools/shuifu" className="hover:text-white transition-colors">税负测算器</Link></li>
               <li><Link href="/news" className="hover:text-white transition-colors">财税知识</Link></li>

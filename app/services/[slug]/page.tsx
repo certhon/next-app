@@ -104,20 +104,51 @@ const ServiceDetailPage = ({ params }: { params: { slug: string } }) => {
           </section>
         )}
 
-        {/* 工商注册专属：核名工具入口 */}
+        {/* 工商注册专属：核名工具 + 选区指南入口 */}
         {service.slug === 'gongshang-zhuce' && (
-          <section className="rounded-2xl bg-orange-50 border border-orange-200 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="flex-grow">
-              <h2 className="text-lg font-bold text-slate-900 mb-1">还没想好名字能不能用？</h2>
-              <p className="text-sm text-slate-600">先用免费核名：顾问人工核验重名与禁限用词，30 分钟内回电反馈。</p>
-            </div>
-            <Link
-              href="/tools/heming"
-              className="shrink-0 inline-flex items-center justify-center rounded-xl bg-orange-600 px-6 py-3 text-white text-sm font-semibold hover:bg-orange-700 transition-colors"
-            >
-              免费核名 →
-            </Link>
-          </section>
+          <>
+            <section className="rounded-2xl bg-orange-50 border border-orange-200 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <div className="flex-grow">
+                <h2 className="text-lg font-bold text-slate-900 mb-1">还没想好名字能不能用？</h2>
+                <p className="text-sm text-slate-600">先用免费核名：顾问人工核验重名与禁限用词，30 分钟内回电反馈。</p>
+              </div>
+              <Link
+                href="/tools/heming"
+                className="shrink-0 inline-flex items-center justify-center rounded-xl bg-orange-600 px-6 py-3 text-white text-sm font-semibold hover:bg-orange-700 transition-colors"
+              >
+                免费核名 →
+              </Link>
+            </section>
+            <section className="rounded-2xl bg-white border border-slate-100 shadow-sm p-6">
+              <h2 className="text-lg font-bold text-slate-900 mb-1">注册在哪个区更合适？</h2>
+              <p className="text-sm text-slate-600 mb-4">
+                浦东、临港、崇明、奉贤……不同区的园区政策和适配行业差别不小，先看指南再决定。
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {['pudong', 'lingang', 'chongming', 'fengxian', 'minhang', 'songjiang'].map((slug) => {
+                  const names: Record<string, string> = {
+                    pudong: '浦东', lingang: '临港', chongming: '崇明',
+                    fengxian: '奉贤', minhang: '闵行', songjiang: '松江',
+                  };
+                  return (
+                    <Link
+                      key={slug}
+                      href={`/districts/${slug}`}
+                      className="rounded-full bg-blue-50 text-blue-700 text-sm px-3.5 py-1.5 hover:bg-blue-100 transition-colors"
+                    >
+                      {names[slug]}注册
+                    </Link>
+                  );
+                })}
+                <Link
+                  href="/districts"
+                  className="rounded-full border border-blue-200 text-blue-700 text-sm px-3.5 py-1.5 hover:bg-blue-50 transition-colors"
+                >
+                  全部区域 →
+                </Link>
+              </div>
+            </section>
+          </>
         )}
 
         {/* 办理流程 */}
