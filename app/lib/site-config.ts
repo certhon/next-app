@@ -17,7 +17,7 @@ export const siteConfig = {
     'https://open.feishu.cn/open-apis/bot/v2/hook/73ba8a0e-19e0-4ba0-897e-080497c5f488',
 
   // 百度统计站点 ID（hm.baidu.com 后台获取，形如 32 位字符串）；留空则不注入统计脚本
-  baiduAnalyticsId: '',
+  baiduAnalyticsId: '8a0fec12d0090afc236062a8868131f5',
   // 百度搜索资源平台站点验证码（ziyuan.baidu.com 获取）；留空则不输出验证 meta
   baiduSiteVerification: '',
 
