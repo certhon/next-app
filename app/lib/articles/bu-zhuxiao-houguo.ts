@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'bu-zhuxiao-houguo',
   title: '公司不经营了放着不管行吗？不注销的真实后果',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-06-19',
   excerpt:
     '"公司不干了，注销太麻烦，放着呗"——这是代价最高的一种想法。从异常名录到法人限制，这篇把放任不管的后果按时间线摆给你看。',
   blocks: [

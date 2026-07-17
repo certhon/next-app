@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'shipin-jingying-xukezheng',
   title: '开店卖食品要办什么证？食品经营许可和备案的分界',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2025-10-03',
   excerpt:
     '做餐饮、开食品店、直播卖零食，各要办什么证？2023 年改革后"许可"和"备案"分了家——只卖预包装食品的其实简单多了。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'luanzhang-zhengli',
   title: '公司账乱了怎么办？乱账整理的步骤、周期和费用逻辑',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-01-30',
   excerpt:
     '换过几任会计、票据一箱子没人碰、账实对不上——乱账不处理，融资、注销、税务检查全都过不去。这篇讲清乱账整理的完整路径。',
   blocks: [

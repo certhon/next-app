@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'yigeren-kai-gongsi',
   title: '一个人能开公司吗？一人有限公司的条件和风险提示',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-03-06',
   excerpt:
     '没有合伙人，自己一个人能不能注册公司？可以，但一人有限公司有一条特殊的"财产混同"风险，注册前必须知道。',
   blocks: [

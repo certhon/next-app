@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'zhuce-ziben-tianxie',
   title: '注册资本填多少合适？新公司法实缴要求下的填报建议',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-04-24',
   excerpt:
     '注册资本不再是"随便填个一千万显得有实力"的时代了。新公司法要求五年内缴足，这篇讲清填多了的真实代价和不同业务的合理区间。',
   blocks: [

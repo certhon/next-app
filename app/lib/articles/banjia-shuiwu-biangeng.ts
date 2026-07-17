@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'banjia-shuiwu-biangeng',
   title: '公司搬家后要办哪些变更？工商、税务、银行联动清单',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2026-01-09',
   excerpt:
     '办公室搬了，登记地址却一直没动？地址变更不是工商一家的事，税务、银行、社保、资质都要跟着联动，漏一项都可能留隐患。',
   blocks: [

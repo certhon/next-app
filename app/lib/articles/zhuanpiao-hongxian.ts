@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'zhuanpiao-hongxian',
   title: '哪些情况不能开专票？开票红线和虚开的真实后果',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-01-23',
   excerpt:
     '客户要专票就得开吗？朋友公司"借"张票行不行？发票是财税领域执法最严的地带，这几条红线碰一次就可能万劫不复。',
   blocks: [

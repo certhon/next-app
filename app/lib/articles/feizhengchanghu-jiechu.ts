@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'feizhengchanghu-jiechu',
   title: '税务非正常户怎么解除？流程、费用和常见疑问',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-05-01',
   excerpt:
     '发票开不了、电子税务局功能受限，一查是"非正常户"？别慌，这个状态可以解除。这篇讲清认定原因、解除流程和大家最关心的罚款问题。',
   blocks: [

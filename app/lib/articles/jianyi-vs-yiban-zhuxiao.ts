@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'jianyi-vs-yiban-zhuxiao',
   title: '简易注销和一般注销有什么区别？怎么判断自己能走简易',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-05-15',
   excerpt:
     '同样是注销公司，有人二十多天办完，有人耗了大半年——差别就在走的是简易注销还是一般注销。这篇给你判断标准和两条路径的完整对照。',
   blocks: [

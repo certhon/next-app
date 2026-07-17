@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'gongjijin-bixu-jiao',
   title: '公积金必须给员工交吗？新公司开户流程和比例选择',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-11-14',
   excerpt:
     '社保大家知道必须交，公积金呢？"小公司可以不交公积金"的说法流传很广——这篇把公积金的强制性、开户流程和比例选择空间讲清楚。',
   blocks: [

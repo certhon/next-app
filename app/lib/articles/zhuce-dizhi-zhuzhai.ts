@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'zhuce-dizhi-zhuzhai',
   title: '公司注册地址可以用住宅吗？上海的规定和替代方案',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-07-10',
   excerpt:
     '想在家办公省房租，住宅能不能拿来注册公司？这篇讲清上海对住宅地址的实际口径，以及没有办公地址时更稳妥的两条路。',
   blocks: [

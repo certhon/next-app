@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'yanfa-jiaji-koucu',
   title: '研发费用加计扣除小公司也能用吗？条件、比例和归集要点',
   category: '政策解读',
-  date: '2026-07-16',
+  date: '2025-10-24',
   excerpt:
     '一提研发加计扣除就觉得是高新企业的事？其实做软件、改工艺、开发新配方的小公司都可能适用。这篇讲清条件、比例和最关键的费用归集。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'shebao-zengjianyuan',
   title: '员工入职离职社保怎么办？增员减员的时间节点和漏缴补救',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2025-12-05',
   excerpt:
     '新员工哪天加社保、离职员工哪天停——月月都有的小事，卡错时间点就是纠纷。这篇讲清增减员的操作节奏和漏缴的补救办法。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'daizhang-fuwu-neirong',
   title: '代账公司每个月到底帮我做什么？从收票到报税全流程',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2026-05-22',
   excerpt:
     '每月交着代账费，却不清楚对方具体干了什么？这篇把正规代账机构一个月的工作从头到尾摊开，也教你识别"只报税不做账"的缩水服务。',
   blocks: [

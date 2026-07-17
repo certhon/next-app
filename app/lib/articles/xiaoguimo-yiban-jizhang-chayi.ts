@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'xiaoguimo-yiban-jizhang-chayi',
   title: '小规模和一般纳税人记账报税差在哪？申报、发票、账务逐项对比',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-02-06',
   excerpt:
     '都说一般纳税人的账"复杂"，到底复杂在哪？这篇从申报频率、发票管理、账务处理三个维度做实操对比，帮你理解两种身份的日常差别。',
   blocks: [

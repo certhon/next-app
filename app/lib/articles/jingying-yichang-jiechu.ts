@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'jingying-yichang-jiechu',
   title: '公司被列入经营异常名录怎么办？原因排查与解除流程',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-03-27',
   excerpt:
     '开票受限、贷款被拒、投标被刷，很多老板这时才发现公司进了经营异常名录。这篇文章讲清四种列异原因对应的解除办法，以及为什么这件事拖不得。',
   blocks: [

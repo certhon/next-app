@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'qingsuan-baogao-zhuyi',
   title: '公司注销的清算报告怎么做？税务清算的关键点',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2025-12-19',
   excerpt:
     '一般注销卡得最久的就是清算环节：清算组备案、清税证明、清算报告环环相扣。这篇把清算的流程和最容易被税务盯上的几个点讲清楚。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'xingongsi-shebao-kaihu',
   title: '新公司什么时候必须开社保户？上海开户流程和常见问题',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2026-04-17',
   excerpt:
     '公司什么时候必须开社保账户、不缴有什么风险、上海怎么线上办理——这篇把新公司社保开户的时限、流程和高频疑问一次讲清。',
   blocks: [

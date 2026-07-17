@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'zhuxiao-feiyong-shijian',
   title: '注销一家公司要多少钱、多长时间？费用构成一次讲透',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-01-02',
   excerpt:
     '同样是注销，有人几乎零成本一个月办完，有人花大几千耗半年——差别在哪？这篇把注销的时间线和费用构成拆开讲，你自己就能预估。',
   blocks: [

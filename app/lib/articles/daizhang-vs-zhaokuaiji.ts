@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'daizhang-vs-zhaokuaiji',
   title: '小公司请会计还是找代账？成本和适用场景算给你看',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-05-29',
   excerpt:
     '招一个全职会计一年的综合成本，够买好几年的代账服务。但代账也不是万能的——这篇按公司阶段讲清什么时候用代账、什么时候该招人。',
   blocks: [

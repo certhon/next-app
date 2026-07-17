@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'yi-percent-zhengshoulv',
   title: '小规模纳税人 1% 征收率还有吗？适用范围和开专票的影响',
   category: '政策解读',
-  date: '2026-07-16',
+  date: '2025-11-07',
   excerpt:
     '3% 减按 1% 的优惠还在不在、什么时候到期、开专票是按 1% 还是 3%——这篇把小规模纳税人最关心的征收率问题一次说清。',
   blocks: [

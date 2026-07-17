@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'heming-bohui-jiqiao',
   title: '公司核名总被驳回怎么办？高频驳回原因和取名技巧',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-03-13',
   excerpt:
     '连报五六个名字全被驳回，注册卡在第一步？核名被拒无非那几类原因。这篇教你自查方法和起名思路，一次通过不靠运气。',
   blocks: [

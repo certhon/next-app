@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'duonian-weibaoshui-zhuxiao',
   title: '好几年没报税的公司还能注销吗？处理顺序和成本预期',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-12-12',
   excerpt:
     '公司放了三五年没报税没年报，现在想彻底了结——还有救吗？有，但要按正确的顺序来。这篇给你完整的处理路线和诚实的成本预期。',
   blocks: [

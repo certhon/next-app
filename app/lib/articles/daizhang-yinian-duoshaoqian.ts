@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'daizhang-yinian-duoshaoqian',
   title: '上海代理记账一年多少钱？收费逻辑和低价套路一次讲清',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-06-26',
   excerpt:
     '搜代理记账，报价从每月一百多到上千的都有，差在哪？这篇拆解代账费用的定价逻辑、影响报价的四个因素，以及低价背后的常见套路。',
   blocks: [

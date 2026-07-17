@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'nazheng-hou-bibande-shi',
   title: '营业执照拿到后还要做什么？新公司必办的 5 件事和时间线',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2026-06-12',
   excerpt:
     '执照到手只是开始，刻章、开户、税务登记、社保、记账义务一件都不能漏。这篇给你一张按时间排好的开业清单，照着办不会出岔子。',
   blocks: [

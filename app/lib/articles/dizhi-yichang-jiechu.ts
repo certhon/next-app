@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'dizhi-yichang-jiechu',
   title: '公司地址异常有什么后果？两种解除方案怎么选',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-05-08',
   excerpt:
     '收到"通过登记的住所无法取得联系"的异常通知怎么办？这篇讲清地址异常的触发原因、对经营的实际影响，以及原地址解除和变更地址两条路怎么选。',
   blocks: [

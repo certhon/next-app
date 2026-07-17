@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'shanghai-shebao-duoshaoqian',
   title: '上海社保一个月要交多少钱？公司和个人的分担算给你看',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-11-28',
   excerpt:
     '招一个人，除了工资还要给他交多少社保？这篇把上海社保的险种比例、基数规则讲清，再用一个例子算一遍，老板一看就懂。',
   blocks: [

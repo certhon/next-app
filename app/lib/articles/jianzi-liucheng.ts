@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'jianzi-liucheng',
   title: '注册资本没缴齐的老公司怎么办？减资流程和公示操作',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2025-10-10',
   excerpt:
     '当年跟风认缴了 500 万一千万，新公司法要求限期实缴，缴不出怎么办？减资是正路，但流程有讲究——通知债权人这一步做错，减资可能无效。',
   blocks: [

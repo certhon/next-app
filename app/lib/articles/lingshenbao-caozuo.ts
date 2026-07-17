@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'lingshenbao-caozuo',
   title: '公司没业务也要报税吗？零申报的正确操作和三个误区',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-06-05',
   excerpt:
     '公司刚成立还没开张，或者暂时没生意，是不是就不用管税务了？错——零申报也是申报，不报的后果和操作要点这篇讲清。',
   blocks: [

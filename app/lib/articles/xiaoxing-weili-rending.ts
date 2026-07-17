@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'xiaoxing-weili-rending',
   title: '小型微利企业怎么认定？"335"标准白话解读',
   category: '政策解读',
-  date: '2026-07-16',
+  date: '2025-10-31',
   excerpt:
     '企业所得税实际税负 5% 的优惠，关键在"小型微利企业"的认定。300 人、5000 万、300 万这三条线怎么算，这篇用大白话讲明白。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'ziji-ban-vs-daiban',
   title: '自己注册公司和找代办差多少？时间成本和避坑指南',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-02-27',
   excerpt:
     '注册公司政府环节本身免费，那找代办图什么？这篇诚实对比自己办和找代办的真实差别，也教你识别不靠谱的代办公司。',
   blocks: [

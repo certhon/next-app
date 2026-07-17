@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'icp-xukezheng-beian',
   title: '做网站要办 ICP 许可证吗？和 ICP 备案的区别一次分清',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-09-26',
   excerpt:
     'ICP 备案和 ICP 许可证只差两个字，性质完全不同：一个是网站上线的"身份登记"，一个是经营性业务的"营业资格"。搞混的公司不在少数。',
   blocks: [

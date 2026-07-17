@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'shanghai-gongsi-zhuce-liucheng',
   title: '上海注册公司全流程指南：从核名到开业要走几步？',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2026-04-10',
   excerpt:
     '第一次在上海注册公司，最容易卡在核名反复驳回和材料来回补交。这篇文章把从核名到正式开业的完整流程讲清楚，照着走可以少踩很多坑。',
   blocks: [

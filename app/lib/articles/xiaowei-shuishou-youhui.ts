@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'xiaowei-shuishou-youhui',
   title: '2026 年小微企业税收优惠有哪些？增值税、所得税一次看全',
   category: '政策解读',
-  date: '2026-07-16',
+  date: '2026-07-17',
   excerpt:
     '小微企业的税收优惠力度其实很大，但很多老板只用了一半。这篇把增值税、企业所得税、六税两费的现行优惠汇总成一张清单，对照自查有没有漏。',
   blocks: [

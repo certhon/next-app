@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'yuanqu-xuni-dizhi',
   title: '园区虚拟地址注册公司靠谱吗？合法性、限制和挑选方法',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-03-20',
   excerpt:
     '不租办公室、用园区提供的地址注册公司，这事合法吗？会不会被查？这篇讲清园区集中登记地址的性质、不适用的行业和挑园区的三个标准。',
   blocks: [

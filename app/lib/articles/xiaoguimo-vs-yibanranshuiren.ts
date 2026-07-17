@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'xiaoguimo-vs-yibanranshuiren',
   title: '小规模纳税人和一般纳税人怎么选？一篇讲清差别',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-04-03',
   excerpt:
     '纳税人身份选错，税负可能差出一大截。这篇文章用大白话讲清两种身份在开票、税率、算税方式上的差别，以及选择时真正该看的三个因素。',
   blocks: [

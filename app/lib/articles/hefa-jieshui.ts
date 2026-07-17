@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'hefa-jieshui',
   title: '小公司怎么合法节税？先用足政策，再谈筹划',
   category: '政策解读',
-  date: '2026-07-16',
+  date: '2026-01-16',
   excerpt:
     '网上的"税务筹划"方案满天飞，靠谱的没几个。小公司真正安全有效的节税路径其实很朴素：把国家明给的优惠用足，把结构理顺。',
   blocks: [

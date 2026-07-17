@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'diaoxiao-vs-zhuxiao',
   title: '吊销和注销是一回事吗？被吊销执照后必须做的事',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-12-26',
   excerpt:
     '很多老板以为执照被吊销就等于公司"自动没了"，正好省了注销的麻烦——这是代价最大的误解之一。吊销不是终点，而是问题的开始。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'shebao-tuoguan-hegui',
   title: '公司社保可以找人代缴托管吗？合规模式和风险边界',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-11-21',
   excerpt:
     '没有专职人事，社保月月要办，能不能整体外包出去？可以，但"托管"和"挂靠代缴"是两回事——一个合规，一个违法，边界要分清。',
   blocks: [

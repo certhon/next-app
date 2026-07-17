@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'getihu-geshui-jianban',
   title: '个体户个税减半是什么政策？怎么享受、要不要申请',
   category: '政策解读',
-  date: '2026-07-16',
+  date: '2025-10-17',
   excerpt:
     '个体工商户的经营所得个税可以减半征收，很多个体老板却不知道自己已经在享受、或者该享受没享受。这篇把政策口径和操作讲明白。',
   blocks: [

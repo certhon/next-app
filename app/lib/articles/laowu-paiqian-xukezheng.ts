@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'laowu-paiqian-xukezheng',
   title: '劳务派遣经营许可证怎么办？条件、流程和年报义务',
   category: '办事指南',
-  date: '2026-07-16',
+  date: '2025-09-19',
   excerpt:
     '想做劳务派遣业务，先过许可关：200 万实缴注册资本是硬门槛。这篇讲清办证条件、流程和拿证后容易忽略的年度报告义务。',
   blocks: [

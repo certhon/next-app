@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'wangdian-yingye-zhizhao',
   title: '个人开网店要办营业执照吗？豁免情形和办理建议',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2025-09-12',
   excerpt:
     '在淘宝、抖音、微信卖点东西，到底要不要办执照？电商法给了两类豁免，但豁免的边界比想象中窄——超线经营的风险和办照的好处都要算。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'zenme-tiao-daizhang',
   title: '怎么挑代理记账公司才不踩坑？看证、看流程、看报价三招',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-02-20',
   excerpt:
     '市面上代账机构鱼龙混杂，账交错了人，损失的是自己。挑代账不用懂财务，用这三招把不靠谱的筛掉就够了。',
   blocks: [

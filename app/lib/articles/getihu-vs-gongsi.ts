@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'getihu-vs-gongsi',
   title: '个体户和有限公司哪个好？责任、税收、发展空间一次对比',
   category: '常见问题',
-  date: '2026-07-16',
+  date: '2026-07-03',
   excerpt:
     '开店做生意，注册个体户还是有限公司？两者在责任承担、税收方式、能不能转让扩张上差别很大，这篇按你的经营场景给出明确建议。',
   blocks: [
