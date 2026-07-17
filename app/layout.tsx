@@ -19,7 +19,8 @@ export const metadata: Metadata = {
   keywords:
     '礼乘, 礼乘财税, 公司注册, 注册公司, 上海代理记账, 代理记账, 企业注销, 解除经营异常, 灵活用工, 财税服务, 财税咨询, 纳税筹划, 社保代缴',
   icons: {
-    icon: '/logo.ico',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
