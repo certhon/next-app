@@ -2,6 +2,7 @@
 // 列表页与详情页从这里读取；新文章加在数组最前面即可排在最新
 
 import type { Article, ArticleBlock } from './articles/types';
+import { article as guquanZhuanrangLiucheng } from './articles/guquan-zhuanrang-liucheng';
 import { article as xiaoweiShuishouYouhui } from './articles/xiaowei-shuishou-youhui';
 import { article as zhuceDizhiZhuzhai } from './articles/zhuce-dizhi-zhuzhai';
 import { article as getihuVsGongsi } from './articles/getihu-vs-gongsi';
@@ -51,6 +52,7 @@ import { article as wangdianYingyeZhizhao } from './articles/wangdian-yingye-zhi
 export type { Article, ArticleBlock };
 
 export const articles: Article[] = [
+  guquanZhuanrangLiucheng,
   xiaoweiShuishouYouhui,
   zhuceDizhiZhuzhai,
   getihuVsGongsi,
