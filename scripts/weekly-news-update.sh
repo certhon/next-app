@@ -1,12 +1,15 @@
 #!/bin/bash
-# 知识频道周更自动化：每周三 09:00 由 cron 触发（crontab: 0 9 * * 3）
+# 知识频道周更自动化：每周三 09:00 由 launchd 触发（LaunchAgent: tech.licheng.weekly-news）
+# 安装：cp scripts/tech.licheng.weekly-news.plist ~/Library/LaunchAgents/ && launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/tech.licheng.weekly-news.plist
+# 不用 cron 的原因：claude CLI 登录凭据存在 macOS 钥匙串，cron 跑在用户图形会话之外读不到（Not logged in）；
+# LaunchAgent 跑在登录会话内，钥匙串可用，且睡眠错过后唤醒会补跑
 # 流程：claude headless 写新文章并按规范 commit → 本脚本独立 build 兜底验证 → push 触发线上部署
 # 日志：~/Library/Logs/licheng-weekly-news.log
 set -uo pipefail
 
 PROJECT_DIR="/Users/a1021500667/Documents/test/next-app"
 LOG_FILE="$HOME/Library/Logs/licheng-weekly-news.log"
-# cron 环境 PATH 极简，显式补上 claude 与 nvm node 的安装路径
+# launchd 环境 PATH 极简（不加载 shell profile），显式补上 claude 与 nvm node 的安装路径
 # 注意：nvm 升级 node 大版本后需同步更新这里的版本号
 export PATH="$HOME/.local/bin:$HOME/.nvm/versions/node/v22.20.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
