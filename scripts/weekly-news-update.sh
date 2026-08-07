@@ -15,8 +15,17 @@ export PATH="$HOME/.local/bin:$HOME/.nvm/versions/node/v22.20.0/bin:/usr/local/b
 
 exec >> "$LOG_FILE" 2>&1
 
+# 无人值守认证：keychain 里的 OAuth access token 过期时 headless claude 不会自动刷新（2026-08-05 曾因此 401 失败）。
+# 用 `claude setup-token` 生成长期 token 存入下面的文件（chmod 600）后，脚本优先用它，不再依赖 keychain
+TOKEN_FILE="$HOME/.claude/weekly-news-token"
+if [ -f "$TOKEN_FILE" ]; then
+  CLAUDE_CODE_OAUTH_TOKEN="$(cat "$TOKEN_FILE")"
+  export CLAUDE_CODE_OAUTH_TOKEN
+fi
+
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
-fail() { log "中止：$*"; exit 1; }
+notify() { osascript -e "display notification \"$1\" with title \"礼乘官网周更\"" 2>/dev/null || true; }
+fail() { log "中止：$*"; notify "失败：$*（详见日志）"; exit 1; }
 
 log "===== 周更任务开始 ====="
 
