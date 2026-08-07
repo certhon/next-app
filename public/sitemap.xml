@@ -169,6 +169,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.licheng.tech/news/gongshang-nianbao</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.licheng.tech/news/faren-biangeng-liucheng</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>yearly</changefreq>
