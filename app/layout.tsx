@@ -6,6 +6,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import FloatContact from './components/float-contact';
 import VisitTracker from './components/visit-tracker';
+import SiteOnly from './components/site-only';
 import { siteConfig } from './lib/site-config';
 
 export const metadata: Metadata = {
@@ -59,11 +60,15 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className="bg-slate-50 text-slate-800 antialiased">
-        <Header />
+        <SiteOnly>
+          <Header />
+        </SiteOnly>
         <main className="min-h-screen">{children}</main>
-        <Footer />
-        <FloatContact />
-        <VisitTracker />
+        <SiteOnly>
+          <Footer />
+          <FloatContact />
+          <VisitTracker />
+        </SiteOnly>
         {siteConfig.baiduAnalyticsId && (
           <Script id="baidu-tongji" strategy="afterInteractive">
             {`var _hmt = _hmt || [];
