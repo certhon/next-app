@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'faren-biangeng-liucheng',
   title: '公司法定代表人怎么变更？流程、材料和挂名法人的风险',
   category: '办事指南',
-  date: '2026-07-29',
+  date: '2026-05-28',
   excerpt:
     '股东退出、职业经理人接手、或者只是想把"挂名"的亲戚换下来——都要办法定代表人变更。这篇讲清完整流程、要准备的材料，以及工商变更之后容易被漏掉的税务、银行联动。',
   blocks: [

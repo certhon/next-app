@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'gongshang-nianbao',
   title: '工商年报怎么报？填报内容、截止时间和逾期补救',
   category: '办事指南',
-  date: '2026-08-07',
+  date: '2026-06-11',
   excerpt:
     '每年 6 月 30 日前要报的工商年报，不少老板要么忘了报、要么以为"没经营就不用报"。这篇讲清年报报什么、在哪报、逾期的真实后果和补救办法。',
   blocks: [

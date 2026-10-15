@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'guquan-zhuanrang-liucheng',
   title: '公司股权转让怎么办理？流程、税费和最容易踩的坑',
   category: '办事指南',
-  date: '2026-07-24',
+  date: '2026-05-14',
   excerpt:
     '合伙人退出、引入新股东、家人间转股——都绕不开股权转让。这篇讲清完整流程、要交哪些税，以及"平价转让避税"这类经典误区为什么行不通。',
   blocks: [

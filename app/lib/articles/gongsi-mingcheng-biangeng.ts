@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'gongsi-mingcheng-biangeng',
   title: '公司名称变更怎么办？流程、材料和改名后必须联动的事',
   category: '办事指南',
-  date: '2026-08-26',
+  date: '2026-07-23',
   excerpt:
     '品牌升级、业务转型、股东更换——公司改名的需求很常见。这篇讲清名称变更的完整流程、要准备哪些材料，以及为什么工商改完只是开始：税务、银行、社保、资质、合同都得跟着换。',
   blocks: [

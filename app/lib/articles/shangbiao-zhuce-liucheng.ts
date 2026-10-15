@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'shangbiao-zhuce-liucheng',
   title: '公司商标注册怎么办理？流程、材料和被驳回后怎么办',
   category: '办事指南',
-  date: '2026-09-09',
+  date: '2026-08-20',
   excerpt:
     '公司名字能注册、店招能挂出去，不代表商标就是你的——很多老板等到被人抢注了才发现这一点。这篇讲清商标注册的完整流程、要准备的材料，以及被驳回、被异议后该怎么处理。',
   blocks: [

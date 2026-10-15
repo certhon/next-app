@@ -27,9 +27,25 @@ log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 notify() { osascript -e "display notification \"$1\" with title \"礼乘官网周更\"" 2>/dev/null || true; }
 fail() { log "中止：$*"; notify "失败：$*（详见日志）"; exit 1; }
 
-log "===== 周更任务开始 ====="
+log "===== 知识频道自动更新任务开始 ====="
 
 cd "$PROJECT_DIR" || fail "无法进入项目目录（若报 Operation not permitted，需在 系统设置→隐私与安全性→完全磁盘访问权限 中勾选 cron）"
+
+# 双周发文校验：基准周三为 2026-10-28，每两周发文一次（如 10-28、11-11、11-25 等）
+# launchd 虽每周三 09:00 唤起，非发文周自动跳过，不调模型、不拉代码
+SHOULD_RUN=$(python3 -c "
+from datetime import date, timedelta
+today = date.today()
+wed = today - timedelta(days=(today.weekday() - 2) % 7)
+anchor = date(2026, 10, 28)
+diff_weeks = (wed - anchor).days // 7
+print('yes' if diff_weeks % 2 == 0 else 'no')
+" 2>/dev/null || echo "yes")
+
+if [ "$SHOULD_RUN" != "yes" ]; then
+  log "当前周非发文周（双周轮空），任务正常结束"
+  exit 0
+fi
 
 command -v claude >/dev/null || fail "找不到 claude CLI"
 command -v npx >/dev/null || fail "找不到 npx（nvm 的 node 版本变更后需更新本脚本的 PATH）"

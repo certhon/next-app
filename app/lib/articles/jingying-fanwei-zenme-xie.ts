@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'jingying-fanwei-zenme-xie',
   title: '公司经营范围怎么写？填写规范、常见误区和变更流程',
   category: '办事指南',
-  date: '2026-08-19',
+  date: '2026-07-09',
   excerpt:
     '经营范围不是随便抄同行的——写多了可能被要求前置审批，写少了开票开不出来，主营放错顺序还会影响税收优惠认定。这篇讲清怎么选、怎么排、后期怎么改。',
   blocks: [

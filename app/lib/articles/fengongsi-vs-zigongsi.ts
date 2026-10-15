@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'fengongsi-vs-zigongsi',
   title: '分公司和子公司怎么选？法律责任、税务差异和设立流程',
   category: '常见问题',
-  date: '2026-09-23',
+  date: '2026-09-17',
   excerpt:
     '业务要拓展到新区域、新城市，是开分公司还是设子公司？两者一字之差，法律责任、纳税方式、资质和退出成本都完全不同。这篇帮你按实际需求选对。',
   blocks: [

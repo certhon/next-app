@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'yinhang-jibenhu-kaihu',
   title: '公司银行基本户怎么开？材料、审核要点和账户被限制的原因',
   category: '办事指南',
-  date: '2026-09-02',
+  date: '2026-08-06',
   excerpt:
     '拿到执照后开对公账户，不少新公司卡在"银行不给开"这一步。这篇讲清基本户和一般户的区别、开户要准备什么、银行到底在审什么，以及账户为什么会被列为久悬户或被限制交易。',
   blocks: [

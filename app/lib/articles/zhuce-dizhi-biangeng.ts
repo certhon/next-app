@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'zhuce-dizhi-biangeng',
   title: '公司注册地址变更怎么办？同区迁移和跨区迁移的区别',
   category: '办事指南',
-  date: '2026-09-16',
+  date: '2026-09-03',
   excerpt:
     '换办公室、退租、园区到期，都要办地址变更。同区迁移相对简单，跨区迁移却牵出税务迁出、发票和税种重新核定一串事——这篇把两条路径分开讲清楚。',
   blocks: [

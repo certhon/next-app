@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'gongzhuansi-hegui',
   title: '老板怎么从公司拿钱才合规？公转私的正确方式和风险',
   category: '常见问题',
-  date: '2026-08-12',
+  date: '2026-06-25',
   excerpt:
     '公司账上有钱，不等于老板可以随时转到自己卡上。这篇讲清从公司拿钱的几条合规通道、各自的税负逻辑，以及长期挂"其他应收款"、个人卡收款这些做法的真实后果。',
   blocks: [

@@ -4,7 +4,7 @@ export const article: Article = {
   slug: 'gongsi-zengzi-liucheng',
   title: '公司增资怎么办理？流程、出资方式和新公司法下的注意事项',
   category: '办事指南',
-  date: '2026-09-30',
+  date: '2026-10-01',
   excerpt:
     '投标卡注册资本门槛、申请资质要求实缴、引入新投资人——都要走增资。这篇讲清增资的完整流程、几种出资方式的区别，以及新公司法下"先增了再说"为什么不可取。',
   blocks: [
